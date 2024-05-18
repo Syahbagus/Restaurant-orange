@@ -1,0 +1,92 @@
+*{
+    font-family: 'Balsamiq Sans', sans-serif;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FFBC80;
+}
+
+nav{
+    background-color: #F76E11;
+}
+
+.brand-logo{
+    width: 55px;
+}
+
+.navbar-brand{
+    font-size: 32px;
+    font-weight: 700;
+    word-wrap: break-word 
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: 350;
+    margin: 10px;
+}
+
+hr {
+    margin: 0;
+    border: 1.5px solid black;
+    opacity: 0.5;
+}
+
+.container-width{
+    padding: 50px 20px 50px 25px;
+}
+
+.btn-surprise{
+    --bs-btn-color: #F76E11;
+    --bs-btn-border-color: var(--bs-btn-color);
+    --bs-btn-hover-bg: #FF9F45;
+    --bs-btn-hover-border-color:var(--bs-btn-hover-bg);
+    --bs-btn-active-bg:var(--bs-btn-hover-bg);
+    --bs-btn-active-border-color:var(--bs-btn-color);
+    --bs-btn-font-weight: 500;
+    border: 2px solid var(--bs-btn-border-color);
+}
+
+.modal-header{
+    background-color: #F76E11;
+}
+
+.modal-body{
+    background-color: #FFBC80;
+}
+
+.modal-footer{
+    background-color: #F76E11;
+}
+
+.carousel{
+    width: 80%;
+}
+
+.custom-select{
+    width: 170px;
+    border: 2px solid black;
+    --bs-body-bg: #FF9F45;
+}
+
+.logo-contact{
+    width: 100%;
+    align-items: center;
+}
+
+.footer-text{
+    color: white;
+    padding: 0 20px 0 25px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+
